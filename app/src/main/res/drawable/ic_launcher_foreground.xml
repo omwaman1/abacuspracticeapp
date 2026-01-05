@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Abacus beads row 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,40 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,40 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    
+    <!-- Abacus beads row 2 -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M30,54 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M48,54 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    
+    <!-- Abacus beads row 3 -->
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M30,68 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M48,68 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M66,68 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    
+    <!-- Horizontal lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M26,40 L82,40"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M26,54 L82,54"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M26,68 L82,68"/>
+    
+    <!-- Frame -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M26,32 L26,76 M82,32 L82,76"/>
+        
+</vector>
