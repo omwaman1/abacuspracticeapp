@@ -67,7 +67,8 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us:
 
-- **Email**: omwaman1@gmail.com
+- **Email**: softwebtechnologies2021@gmail.com
+- **Phone**: +91 8669702031
 - **App**: Practice Abacus Speed
 
 ## Consent
