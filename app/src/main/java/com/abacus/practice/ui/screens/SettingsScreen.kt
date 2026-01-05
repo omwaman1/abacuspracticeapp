@@ -34,7 +34,8 @@ private const val KEY_VIBRATION_ENABLED = "vibration_enabled"
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
-    onBackClick: () -> Unit
+    onBackClick: () -> Unit,
+    onPrivacyPolicyClick: () -> Unit
 ) {
     val context = LocalContext.current
     val prefs = remember { context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE) }
@@ -170,9 +171,7 @@ fun SettingsScreen(
                         title = "Privacy Policy",
                         subtitle = "Read our privacy policy",
                         icon = "🔒",
-                        onClick = { 
-                            openPrivacyPolicy(context)
-                        }
+                        onClick = onPrivacyPolicyClick
                     )
                 }
             }

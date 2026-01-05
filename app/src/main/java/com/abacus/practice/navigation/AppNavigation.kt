@@ -200,6 +200,14 @@ fun AppNavigation(
         // Settings Screen
         composable(Screen.Settings.route) {
             SettingsScreen(
+                onBackClick = { navController.popBackStack() },
+                onPrivacyPolicyClick = { navController.navigate(Screen.PrivacyPolicy.route) }
+            )
+        }
+        
+        // Privacy Policy Screen - In-app
+        composable(Screen.PrivacyPolicy.route) {
+            PrivacyPolicyScreen(
                 onBackClick = { navController.popBackStack() }
             )
         }
