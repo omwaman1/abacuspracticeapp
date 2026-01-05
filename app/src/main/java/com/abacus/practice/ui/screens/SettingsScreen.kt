@@ -261,7 +261,7 @@ private fun shareApp(context: Context) {
 }
 
 private fun openPrivacyPolicy(context: Context) {
-    val privacyUrl = "https://mathtestpracticeimprovespeed.blogspot.com/2026/01/abacus-privacy-policy.html"
+    val privacyUrl = "https://github.com/omwaman1/abacuspracticeapp/blob/main/PRIVACY_POLICY.md"
     val intent = Intent(Intent.ACTION_VIEW, Uri.parse(privacyUrl))
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
     context.startActivity(intent)
