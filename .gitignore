@@ -48,9 +48,9 @@ captures/
 .idea/caches
 .idea/modules.xml
 
-# Keystore files
+# Keystore files (keep hingolihub.keystore for CI builds)
 *.jks
-*.keystore
+# *.keystore
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
